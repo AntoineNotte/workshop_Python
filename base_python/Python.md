@@ -16,6 +16,31 @@ Python est un langage de programmation, dont la première version est sortie en 
 *Web : Aujourd'hui Python combiné avec le framework Django est un choix technologique très précis    pour les grands projets de sites web.
 *Python est aussi fréquemment utilisé par les administrateurs système pour créer des tâches dites   répétitives ou simplement des tâches de maintenance.
 
+## Installation 
+
+### Ubuntu 16.04
+Pour installer Python 3.6 avec Ubuntu 16.04, il faut ajouter un ppa :
+
+soit jonathonf/python-3.6
+soit deadsnakes/ppa
+Puis on installe Python 3.6.
+
+Les commandes complètes avec, par exemple, jonathon ppa :
+
+$ sudo add-apt-repository ppa:jonathonf/python-3.6
+$ sudo apt update
+$ sudo apt install python3.6 
+
+### Ubuntu 18.04
+
+Ubuntu 18.04 est livrés avec Python 3.6 par défaut, il suffit de taper python3 pour l'invoquer.
+
+### Windows
+
+https://www.python.org/downloads/windows/
+
+
+
 ## Le projet 
   *Nous allons essayer de faire un petit programme que nous appellerons BeCasino. Il s'agira d'un petit jeu de roulette très simplifié dans lequel vous pourrez miser une certaine somme et gagner ou perdre de l'argent :sob: ! Quand vous n'avez plus d'argent, vous avez perdu.
   * Voici les régles : 
