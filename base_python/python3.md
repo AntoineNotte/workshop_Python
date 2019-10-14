@@ -29,21 +29,26 @@ Lorsque vous ouvrez l'interpréteur Python, les fonctionnalités du module math 
     >>> import math
 
 Maintenant si vous utilisez la fonction sqrt du module math par expemple , cela vous renvoie la racine carrée du nombre passé en paramètre.
+
     >>> math.sqrt(16)
     >>> 4
 
+
 Pour voir les differentes fonctions existantes utiliser 'help' avec comme argument le module 
+
     >>> help('math')
 ###  La méthode:from … import …
 Elle sert à importer uniquement certaine fonction du module,au lieu d'importer tout le module.
 
 Admettons que nous ayons uniquement besoin, dans notre programme, de la fonction renvoyant la valeur absolue d'une variable.
+
     >>> from math import fabs
     >>> fabs(-5)
     5
     >>> fabs(2)
     2
     >>>
+
 Dans notre roulette nous allons nous interesser à la fonction "randrange" du module "random", une fois celle ci importer , il nous reste plus qu'a l'utiliser pour séléctioner le nombre gagnant:
 ``` py
 from random import randrange
