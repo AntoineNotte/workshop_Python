@@ -18,4 +18,6 @@ Il faut gérer les gains pour rappelle :
   - On interrompt la partie si le joueur est ruiné
   ### Bonus
   - On affiche l'argent du joueur aprés chaque tour et on lui propose de quitter ou rester 
+
+
    <a href="solution.md">NEXT >> </a>
